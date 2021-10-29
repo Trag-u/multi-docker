@@ -16,8 +16,8 @@ after_success:
   # log into docker cli
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   
-  - docker push tragu/multi-client
-  - docker push tragu/multi-nginx
-  - docker push tragu/multi-server
-  - docker push tragu/multi-worker
+  - docker push tragu/multi-client:latest
+  - docker push tragu/multi-nginx:latest
+  - docker push tragu/multi-server:latest
+  - docker push tragu/multi-worker:latest
   # bruh
