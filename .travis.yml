@@ -20,3 +20,4 @@ after_success:
   - docker push tragu/multi-nginx
   - docker push tragu/multi-server
   - docker push tragu/multi-worker
+  # bruh
